@@ -1,0 +1,39 @@
+name: Idea
+description: Dump an idea for the parts counter. Messy is fine — it gets triaged.
+title: "[idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One idea per issue. Don't polish it — just get it down. Abdulwahab
+        triages: accepted ideas move into `pending.md`, declined ones get closed
+        with a reason. Nothing here touches the project datasheets directly.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What is it? What would it change or add?
+      placeholder: e.g. Add a "compare two parts side by side" view in the drawer.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why (optional)
+      description: The problem it solves, or who it helps. One or two lines.
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Roughly where it lands. Guess if unsure.
+      options:
+        - Catalogue / parts data
+        - UI / drawer / layout
+        - Community layer (FAQ, notes, sign-in)
+        - Build / tooling / deploy
+        - Other
+    validations:
+      required: false
