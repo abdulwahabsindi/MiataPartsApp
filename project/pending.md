@@ -25,16 +25,15 @@ Ceiling: 4500 characters.
 
 | # | Item |
 |---|---|
-| 1 | Write `scripts/validate.mjs`, generate `catalogue.md` from it, lint `project/*.md` for paragraphs, ceilings and stray headings |
-| 2 | Move images out of base64 into files, WebP, build-time thumbnails |
-| 3 | Split `index.html` into modules under `src/` |
-| 4 | Create the Firebase project, enable Google and Apple sign-in |
-| 5 | Firestore collections, security rules, rules tests |
-| 6 | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
-| 7 | Sign-in UI and post submission on the FAQ and part drawer |
-| 8 | `/admin` route |
-| 9 | Netlify continuous deploy |
-| 10 | Convert `project/` into a loadable skill |
+| 1 | Move images out of base64 into files, WebP, build-time thumbnails |
+| 2 | Split `index.html` into modules under `src/` |
+| 3 | Create the Firebase project, enable Google and Apple sign-in |
+| 4 | Firestore collections, security rules, rules tests |
+| 5 | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
+| 6 | Sign-in UI and post submission on the FAQ and part drawer |
+| 7 | `/admin` route |
+| 8 | Netlify continuous deploy |
+| 9 | Convert `project/` into a loadable skill |
 
 ## Parked
 
