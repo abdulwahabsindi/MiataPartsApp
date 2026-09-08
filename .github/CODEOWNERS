@@ -1,0 +1,10 @@
+# Auto-requests review from the owner on PRs touching these paths.
+# Not enforced as a hard gate (private repo, Free plan) — see docs/onboarding.md.
+
+# The datasheets and roadmap: owner reviews all changes.
+/project/        @abdulwahabsindi
+# Catalogue data: a wrong number puts the wrong part in someone's car.
+/data/           @abdulwahabsindi
+# Skills and repo config.
+/.claude/        @abdulwahabsindi
+/.github/        @abdulwahabsindi
