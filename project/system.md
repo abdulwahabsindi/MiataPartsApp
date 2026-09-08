@@ -44,7 +44,7 @@ Ceiling: 4500 characters.
 | Inline blocks | KSA, INTL, VENDORS, VMAP, PARTS, IMG, N, CAT_AR, FAQ, T |
 | IMG | One line, 280 KB, base64 data URIs, 79% of the file |
 | Render logic | ~120 lines, end of file |
-| Catalogue master | `data/*.json`, in repo. `nc_miata_catalogue.xlsx` retired |
+| Catalogue master | `data/*.json`, in repo. `archive/nc_miata_catalogue.xlsx` retired |
 
 ## Environment
 
