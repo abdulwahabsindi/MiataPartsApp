@@ -7,7 +7,7 @@ Ceiling: generator-bound.
 
 ---
 
-Generated. Source: `index.html`, 2026-09-08. Script not yet written.
+Generated from `data/` by `scripts/validate.mjs`, 2026-09-08.
 
 ## Counts
 
@@ -29,10 +29,10 @@ Generated. Source: `index.html`, 2026-09-08. Script not yet written.
 |---|---|
 | Brakes | 4 |
 | Clutch hydraulics | 3 |
-| Engine / Filters | 2 |
-| Engine / Drive belt | 2 |
-| Ignition | 2 |
 | Cooling | 2 |
+| Engine / Drive belt | 2 |
+| Engine / Filters | 2 |
+| Ignition | 2 |
 | Engine / Emissions | 1 |
 | Engine / Service hardware | 1 |
 
