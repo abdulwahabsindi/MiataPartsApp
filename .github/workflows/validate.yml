@@ -1,0 +1,22 @@
+name: validate
+
+# Runs the catalogue validator on every PR and on pushes to main, so a bad or
+# mismatched part can't be merged even if someone forgets to run it locally.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate catalogue against the data contract
+        run: node scripts/validate.mjs
+      - name: catalogue.md is regenerated and committed
+        run: git diff --exit-code project/catalogue.md
