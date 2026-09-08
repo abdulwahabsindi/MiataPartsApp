@@ -18,7 +18,7 @@ Ceiling: 4500 characters.
 | Backend | Firebase (Auth, Firestore, Functions), not provisioned |
 | Deploy | Manual upload of `index.html` |
 | CI | None |
-| Git remote | None |
+| Git remote | github.com/abdulwahabsindi/MiataPartsApp (private) |
 | Custom domain | None |
 
 ## Build

@@ -14,7 +14,6 @@ Ceiling: 4500 characters.
 | Decision | Options | Blocks |
 |---|---|---|
 | Build tooling | Vite, or stay dependency-free | Module split |
-| Catalogue master | xlsx becomes a one-time import, or the pipeline inverts and xlsx stays master | Data extraction |
 | FAQ question ids | Add stable ids, or keep array positions | Posts targeting a question |
 | Verified flag | Add a per-record flag, or leave all records draft | Verification workflow |
 
@@ -26,17 +25,16 @@ Ceiling: 4500 characters.
 
 | # | Item |
 |---|---|
-| 1 | Extract inline data from `index.html` into `data/*.json` |
-| 2 | Write `scripts/validate.mjs`, generate `catalogue.md` from it, lint `project/*.md` for paragraphs, ceilings and stray headings |
-| 3 | Move images out of base64 into files, WebP, build-time thumbnails |
-| 4 | Split `index.html` into modules under `src/` |
-| 5 | Create the Firebase project, enable Google and Apple sign-in |
-| 6 | Firestore collections, security rules, rules tests |
-| 7 | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
-| 8 | Sign-in UI and post submission on the FAQ and part drawer |
-| 9 | `/admin` route |
-| 10 | Move the repo to git, Netlify continuous deploy |
-| 11 | Convert `project/` into a loadable skill |
+| 1 | Write `scripts/validate.mjs`, generate `catalogue.md` from it, lint `project/*.md` for paragraphs, ceilings and stray headings |
+| 2 | Move images out of base64 into files, WebP, build-time thumbnails |
+| 3 | Split `index.html` into modules under `src/` |
+| 4 | Create the Firebase project, enable Google and Apple sign-in |
+| 5 | Firestore collections, security rules, rules tests |
+| 6 | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
+| 7 | Sign-in UI and post submission on the FAQ and part drawer |
+| 8 | `/admin` route |
+| 9 | Netlify continuous deploy |
+| 10 | Convert `project/` into a loadable skill |
 
 ## Parked
 
