@@ -87,6 +87,23 @@ A client that can write `status`, `trust` or `admin` is a bug, not a feature.
 Entered when I say "admin mode". Set aside Parts 1 and 2 and work with me on the
 project structure itself. The response contract still applies.
 
+### Before I clear
+
+Runs when I say I am clearing, compacting, or done for the session.
+This reply may run to 400 words.
+
+1. What changed about the system. Write it to the file that holds it.
+2. Decisions I made that constrain future work. These are instructions, not
+   state. Name them and ask whether to enter admin mode. Do not write them
+   yourself.
+3. Anything true and worth keeping that no file will accept. Name it in the
+   reply. Do not invent a home for it and do not write it anywhere.
+
+Report the three lists, then stop.
+
+Never write a session summary. Never record what we discussed, tried, ordered
+or rejected.
+
 ---
 
 ## Part 2 — The files
