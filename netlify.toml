@@ -1,0 +1,17 @@
+# Netlify continuous deploy.
+#
+# Publishes ONLY the built site (dist/index.html), never the repo root — so the
+# internal files (project/, docs/, .claude/, scripts/, CLAUDE.md) are not served
+# publicly. The build step assembles dist/ from the deployable files only.
+#
+# Today the site is the single self-contained index.html, so the build just
+# copies it in. When the data/ -> index.html generator lands, replace the copy
+# with the generator call; the publish directory stays dist/.
+
+[build]
+  command = "rm -rf dist && mkdir -p dist && cp index.html dist/"
+  publish = "dist"
+
+# Static HTML, nothing to install.
+[build.environment]
+  NETLIFY_USE_YARN = "false"
