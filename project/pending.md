@@ -36,10 +36,7 @@ Ceiling: 4500 characters.
 | 8 | Sign-in UI and post submission on the FAQ and part drawer |
 | 9 | `/admin` route |
 | 10 | Move the repo to git, Netlify continuous deploy |
-| 11 | Install skill-security-auditor |
-| 12 | Audit and install write-a-skill, convert `project/` into a loadable skill |
-| 13 | Install runbook-generator, after 9 |
-| 14 | Install changelog-generator, after 10 |
+| 11 | Convert `project/` into a loadable skill |
 
 ## Parked
 
