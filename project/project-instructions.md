@@ -87,6 +87,15 @@ A client that can write `status`, `trust` or `admin` is a bug, not a feature.
 Entered when I say "admin mode". Set aside Parts 1 and 2 and work with me on the
 project structure itself. The response contract still applies.
 
+### Session start
+
+At the start of every session, before other work:
+
+- `git fetch`. Show new commits on `origin/main` that are not in local. Read
+  only: do not pull, merge, or touch the working tree.
+- Show new GitHub PR comments since the last session.
+- Never push and never auto-commit as part of this step.
+
 ### Before I clear
 
 Runs when I say I am clearing or done.
