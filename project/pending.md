@@ -33,7 +33,6 @@ Ceiling: 4500 characters.
 | 6 | Sign-in UI and post submission on the FAQ and part drawer |
 | 7 | `/admin` route |
 | 8 | Netlify continuous deploy |
-| 9 | Convert `project/` into a loadable skill |
 
 ## Parked
 
