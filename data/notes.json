@@ -1,0 +1,342 @@
+{
+  "NC-OIL-FILTER": {
+    "en": {
+      "i": "Every oil change — 5,000–8,000 km in Saudi heat",
+      "w": "Pure consumable. The media loads with combustion soot and wear metal from the moment it goes on, so it leaves with the oil rather than waiting to fail.",
+      "p": [
+        "The NC filter is a small spin-on sharing a thread with several Ford applications — that is why Motorcraft FL-910S is the most common substitute on local shelves.",
+        "Pre-fill it and oil the gasket before fitting; a dry gasket is the usual cause of a weeping filter.",
+        "Heat, short trips and dusty air all shorten oil life, so many owners here run tighter than the book interval."
+      ]
+    },
+    "ar": {
+      "i": "مع كل تغيير زيت — كل ٥٬٠٠٠ إلى ٨٬٠٠٠ كم في أجواء السعودية",
+      "w": "قطعة استهلاكية بحتة. وسط الفلتر يمتلئ بالسخام وبرادة التآكل منذ لحظة تركيبه، فيُستبدل مع الزيت لا بعد تعطله.",
+      "p": [
+        "فلتر NC صغير لولبي يشترك في مقاس القلاووظ مع عدة تطبيقات فورد، ولهذا يُعد موتوركرافت FL-910S أكثر البدائل توفراً في المحلات.",
+        "املأه بالزيت وادهن الجلدة قبل التركيب؛ الجلدة الجافة هي السبب الأشهر لتسريب الفلتر.",
+        "الحرارة والرحلات القصيرة والغبار تقصّر عمر الزيت، لذا يقصّر كثير من الملاك الفترة عن الرقم الدفتري."
+      ]
+    }
+  },
+  "NC-DRAIN-WASHER": {
+    "en": {
+      "i": "Every oil change",
+      "w": "Single-use by design — the aluminium ring crushes to take the shape of the sump face. Reuse it and it cannot crush again, which is how a drain plug starts weeping.",
+      "p": [
+        "14 mm inner diameter — sold generically in aluminium or copper when the OEM ring is not on the shelf.",
+        "Cheap enough to buy a handful at a time; most workshops will reuse yours unless you hand them a new one.",
+        "Torque the plug to spec — overtightening to stop a leak is what strips the aluminium sump thread."
+      ]
+    },
+    "ar": {
+      "i": "مع كل تغيير زيت",
+      "w": "مصممة للاستخدام مرة واحدة؛ حلقة الألمنيوم تنضغط لتأخذ شكل سطح الكارتير، وإعادة استخدامها تعني أنها لن تنضغط مجدداً، وهنا يبدأ تسريب صامولة التصريف.",
+      "p": [
+        "القطر الداخلي ١٤ مم، وتتوفر بشكل عام من الألمنيوم أو النحاس عند عدم توفر القطعة الأصلية.",
+        "سعرها زهيد فاشترِ عدة قطع دفعة واحدة؛ أغلب الورش تعيد استخدام القديمة ما لم تسلّمهم واحدة جديدة.",
+        "اربط الصامولة بعزم الربط المحدد؛ الشد الزائد لإيقاف التسريب هو ما يخرّب قلاووظ الكارتير الألمنيوم."
+      ]
+    }
+  },
+  "NC-AIR-FILTER": {
+    "en": {
+      "i": "Inspect every oil change; replace around 20,000 km — half that with regular desert or city-dust driving",
+      "w": "A wear item everywhere, but a fast-moving one here: the panel filter sees the same fine sand and dust as every other car in the Kingdom, and a loaded filter costs throttle response long before it throws a code.",
+      "p": [
+        "Hold it up to a light — if the light does not come through the pleats, it is done.",
+        "A washable K&N panel is the common choice for people who would rather clean than re-buy, but it needs re-oiling discipline.",
+        "Blowing it out with an air line pushes dust through the media; it does not restore it."
+      ]
+    },
+    "ar": {
+      "i": "افحصه مع كل تغيير زيت، واستبدله كل ٢٠٬٠٠٠ كم تقريباً، أو نصف ذلك مع القيادة في البر أو غبار المدينة",
+      "w": "قطعة تآكل في كل مكان لكنها سريعة الاستهلاك هنا: الفلتر المسطّح يتعرض لنفس الغبار والرمال الناعمة التي تتعرض لها كل سيارة في المملكة، والفلتر المتسخ يسرق استجابة الدعسة قبل أن يظهر أي عطل على الكمبيوتر.",
+      "p": [
+        "ارفعه أمام مصدر ضوء؛ إذا لم يعد الضوء يعبر بين الطيّات فقد انتهى عمره.",
+        "فلتر K&N القابل للغسل خيار شائع لمن يفضّل التنظيف على الشراء المتكرر، لكنه يحتاج انضباطاً في إعادة تزييته.",
+        "نفخه بالهواء المضغوط يدفع الغبار عبر الوسط ولا يعيده جديداً."
+      ]
+    }
+  },
+  "NC-SPARK-PLUGS": {
+    "en": {
+      "i": "Every 100,000 km per Mazda; many owners change at 60,000–80,000 km",
+      "w": "Iridium plugs on the LF-VE last, but not forever — the gap opens as the electrode erodes and the coils work harder to bridge it. Worn plugs are the cheapest thing to rule out before chasing a misfire.",
+      "p": [
+        "2.0 L only. The 1.8 L NC, never sold new here, takes a different plug.",
+        "NGK ILTR6A-13G is the direct iridium equivalent to the Mazda part; LTR6BI-13 and LTR6IX-11 are the common alternates.",
+        "The gap is pre-set on iridium plugs — do not gap them with a feeler blade or you will chip the fine wire."
+      ]
+    },
+    "ar": {
+      "i": "كل ١٠٠٬٠٠٠ كم حسب مازدا، وكثير من الملّاك يغيّرها بين ٦٠٬٠٠٠ و٨٠٬٠٠٠ كم",
+      "w": "بواجي الإيريديوم في محرك LF-VE تعمّر طويلاً لكنها لا تدوم للأبد؛ تتسع الفجوة مع تآكل القطب فيزيد الحمل على الكويلات. البواجي المستهلكة أرخص ما تستبعده قبل مطاردة رجّة المحرك.",
+      "p": [
+        "تناسب محرك ٢٫٠ لتر فقط؛ محرك ١٫٨ لتر غير المطروح جديداً هنا يأخذ بوجي مختلفاً.",
+        "NGK ILTR6A-13G هو المكافئ المباشر لقطعة مازدا، وLTR6BI-13 وLTR6IX-11 من البدائل الشائعة.",
+        "فجوة بواجي الإيريديوم مضبوطة من المصنع؛ لا تعايرها بأداة القياس حتى لا تكسر السلك الرفيع."
+      ]
+    }
+  },
+  "NC-IGNITION-COIL": {
+    "en": {
+      "i": "No service interval — replace on failure; many owners replace all four once the second one goes",
+      "w": "Four coil-on-plug units sitting directly on a hot engine, firing thousands of times a minute. Insulation and windings give up with heat and age. This is the NC's most common single-cylinder misfire and one of the few electrical parts that fails on a schedule of its own.",
+      "p": [
+        "Symptom is a rough idle, a flashing check-engine light and a P0301–P0304 code naming the cylinder.",
+        "Move the suspect coil to another cylinder and re-read the code — if the misfire follows it, the coil is the fault, not the plug or injector.",
+        "Under-hood heat here is why these go early; a matched set of four is the common call."
+      ]
+    },
+    "ar": {
+      "i": "لا يوجد جدول صيانة؛ تُستبدل عند التلف، وكثير من الملّاك يستبدل الأربعة عند تلف الثاني",
+      "w": "أربعة كويلات مركّبة مباشرة فوق البواجي على محرك ساخن، تشتعل آلاف المرات في الدقيقة. العزل واللفّات تستسلم مع الحرارة والعمر. هذا أشهر سبب لرجّة أسطوانة واحدة في NC، ومن القطع الكهربائية القليلة التي تتعطل بجدول خاص بها.",
+      "p": [
+        "العرض: رجّة في الرالنتي، ولمبة المحرك تومض، وكود من P0301 إلى P0304 يحدد الأسطوانة.",
+        "انقل الكويل المشتبه به إلى أسطوانة أخرى وأعد قراءة الكود؛ إذا انتقلت الرجّة معه فالعطل في الكويل لا في البوجي أو البخاخ.",
+        "حرارة حجرة المحرك هنا سبب تلفها المبكر، ولهذا يفضّل الكثيرون شراء طقم مطابق من أربعة."
+      ]
+    }
+  },
+  "NC-COOLANT-TANK": {
+    "en": {
+      "i": "Inspect yearly from around 8 years; replace at the first sign of crazing, staining or weeping",
+      "w": "On the NC this tank is pressurised — part of the cooling circuit, not an overflow bottle. Plastic under pressure plus under-hood heat ages hard: it crazes, then splits at the seam or the neck, and the car loses coolant slowly enough that people miss it.",
+      "p": [
+        "A pink or white crust around the seam is coolant that has already dried. The tank is leaking.",
+        "Replace the cap with it — a tired cap will not hold pressure and the tank gets blamed.",
+        "Aluminium replacements exist (Moroso, Jass Performance, and cheaper imports) and are a popular one-time fix."
+      ]
+    },
+    "ar": {
+      "i": "افحصه سنوياً بعد ٨ سنوات تقريباً، واستبدله عند أول تشقق أو أثر تسريب",
+      "w": "خزان NC مضغوط، أي أنه جزء من دائرة التبريد وليس مجرد قارورة فائض. البلاستيك تحت الضغط مع حرارة حجرة المحرك يشيخ بسرعة: يتشقق شعرياً ثم ينفتح عند اللحام أو العنق، فتفقد السيارة سائل التبريد ببطء يصعب ملاحظته.",
+      "p": [
+        "القشرة الوردية أو البيضاء حول خط اللحام هي سائل تبريد جفّ؛ الخزان يسرّب فعلاً.",
+        "استبدل الغطاء معه؛ الغطاء المتعب لا يحفظ الضغط وتُحمَّل المشكلة على الخزان ظلماً.",
+        "تتوفر خزانات ألمنيوم بديلة (Moroso وJass Performance وبدائل مستوردة أرخص) وهي حل شائع لمرة واحدة."
+      ]
+    }
+  },
+  "NC-THERMOSTAT": {
+    "en": {
+      "i": "No interval — replace on a leak, an overheat, or a gauge that never reaches temperature",
+      "w": "Mazda sells the thermostat as an assembly with its plastic water outlet housing, and the housing is what fails: it warps and weeps at the gasket face long before the thermostat itself sticks. Replacing one means replacing both.",
+      "p": [
+        "Cars built before 09/2006 take the earlier LF94-15-17Z assembly — check the build plate, not just the model year.",
+        "A coolant smell with no drip on the floor usually means it is evaporating off the hot housing.",
+        "Refill and bleed properly afterwards; an air pocket in an NC reads as an overheat that is not one."
+      ]
+    },
+    "ar": {
+      "i": "لا يوجد جدول؛ يُستبدل عند التسريب أو السخونة أو عند عدم وصول المؤشر لدرجة الحرارة",
+      "w": "تبيع مازدا الثرموستات كمجموعة مع بيت البلاستيك الخاص به، والبيت هو ما يتلف عادة: يتقوّس ويسرّب عند وجه الجوان قبل أن يعلق الثرموستات نفسه. استبدال أحدهما يعني استبدال الاثنين.",
+      "p": [
+        "السيارات المصنوعة قبل ٠٩/٢٠٠٦ تأخذ المجموعة الأقدم LF94-15-17Z؛ راجع لوحة تاريخ الصنع لا سنة الموديل فقط.",
+        "رائحة سائل التبريد دون قطرات على الأرض تعني غالباً أنه يتبخر على البيت الساخن.",
+        "أعد التعبئة وتنفيس الهواء بشكل صحيح؛ فقاعة هواء في NC تظهر كسخونة وهي ليست كذلك."
+      ]
+    }
+  },
+  "NC-BELT-NC1": {
+    "en": {
+      "i": "Inspect at every service; replace around 90,000 km or 5 years, whichever comes first",
+      "w": "One belt drives the alternator, water pump and A/C. Rubber here fails from heat and time more than mileage: the ribs harden, then crack, and a belt that lets go takes the charging system and the water pump with it.",
+      "p": [
+        "This is the 2006–2008 NC1 belt. The NC2/NC3 belt is longer and will not tension correctly on an NC1.",
+        "Look for glazing and rib cracks, not just squeal — a heat-hardened belt can stay quiet right up until it goes.",
+        "If you are unsure which generation you have, take the old belt to the counter."
+      ]
+    },
+    "ar": {
+      "i": "افحصه في كل صيانة، واستبدله عند ٩٠٬٠٠٠ كم تقريباً أو كل ٥ سنوات، أيهما أسبق",
+      "w": "سير واحد يدير الدينمو وطرمبة الماء والمكيّف. المطاط هنا يتلف بالحرارة والزمن أكثر من المسافة: تتصلب الأضلاع ثم تتشقق، والسير الذي ينقطع يأخذ معه شحن البطارية وتدوير طرمبة الماء.",
+      "p": [
+        "هذا سير موديلات ٢٠٠٦–٢٠٠٨ (NC1). سير NC2/NC3 أطول ولن يُشد بشكل صحيح على NC1.",
+        "ابحث عن اللمعان وتشقق الأضلاع لا عن الصفير فقط؛ السير المتصلب بالحرارة قد يبقى صامتاً حتى لحظة انقطاعه.",
+        "إذا لم تكن متأكداً من جيل سيارتك فخذ السير القديم معك إلى المحل."
+      ]
+    }
+  },
+  "NC-BELT-NC2": {
+    "en": {
+      "i": "Inspect at every service; replace around 90,000 km or 5 years, whichever comes first",
+      "w": "Same single-belt job as the NC1, different part. Heat and time harden the ribs until they crack, and the belt takes the charging system and water pump drive with it when it goes.",
+      "p": [
+        "This is the 2009–2015 NC2/NC3 belt. The alternator pulley changed, so the NC1 part is not interchangeable.",
+        "Look for glazing and rib cracks, not just squeal.",
+        "Order by build year, not by looks — the two belts differ by about 10 mm and both will physically go on."
+      ]
+    },
+    "ar": {
+      "i": "افحصه في كل صيانة، واستبدله عند ٩٠٬٠٠٠ كم تقريباً أو كل ٥ سنوات، أيهما أسبق",
+      "w": "نفس مهمة السير الواحد في NC1 لكن بقطعة مختلفة. الحرارة والزمن يصلّبان الأضلاع حتى تتشقق، وعند انقطاعه يتوقف شحن البطارية وتدوير طرمبة الماء.",
+      "p": [
+        "هذا سير موديلات ٢٠٠٩–٢٠١٥ (NC2/NC3). تغيّرت بكرة الدينمو، لذا لا يصلح سير NC1 بديلاً عنه.",
+        "ابحث عن اللمعان وتشقق الأضلاع لا عن الصفير فقط.",
+        "اطلبه بسنة الصنع لا بالشكل؛ الفرق بين السيرين نحو ١٠ مم وكلاهما يُركّب فعلياً."
+      ]
+    }
+  },
+  "NC-PADS-FRONT-STD": {
+    "en": {
+      "i": "Inspect every oil change; typically 40,000–60,000 km",
+      "w": "Friction material is meant to be consumed. On a car as light as the NC pads outlast most expectations, but heat is the variable — a few enthusiastic mornings on a mountain road cost more pad than months of commuting.",
+      "p": [
+        "The NC came with two front brake sizes. Measure the disc or check the caliper before ordering; sport-package pads will not fit standard calipers.",
+        "Replace across an axle, never one side.",
+        "Bed new pads in properly: a series of firm slowdowns from moderate speed, no hard stops, and do not park with them hot."
+      ]
+    },
+    "ar": {
+      "i": "افحصها مع كل تغيير زيت؛ تدوم عادة بين ٤٠٬٠٠٠ و٦٠٬٠٠٠ كم",
+      "w": "مادة الاحتكاك مصممة لتُستهلك. في سيارة خفيفة مثل NC تدوم الفحمات أطول مما يتوقع الكثيرون، لكن الحرارة هي المتغيّر: صباحات قليلة حماسية على طريق جبلي تستهلك أكثر من أشهر من القيادة اليومية.",
+      "p": [
+        "جاءت NC بمقاسين للفرامل الأمامية. قِس الهوب أو افحص الكاليبر قبل الطلب؛ فحمات الباقة الرياضية لا تركّب على الكاليبر القياسي.",
+        "استبدلها لمحور كامل ولا تستبدل جهة واحدة أبداً.",
+        "سيّح الفحمات الجديدة بشكل صحيح: سلسلة تخفيفات سرعة حازمة من سرعة متوسطة، دون وقفات عنيفة، ولا توقف السيارة والفرامل ساخنة."
+      ]
+    }
+  },
+  "NC-PADS-FRONT-BIG": {
+    "en": {
+      "i": "Inspect every oil change; typically 40,000–60,000 km, less if driven hard",
+      "w": "Same wear story as the standard front pads, but this is the larger brake package — usually on sport-trim cars, and the pads are physically different, not just a better compound.",
+      "p": [
+        "Confirm the package before ordering. If the car has standard front brakes, these will not fit.",
+        "Replace across an axle, never one side.",
+        "Bed them in properly and expect a break-in period before the bite feels right."
+      ]
+    },
+    "ar": {
+      "i": "افحصها مع كل تغيير زيت؛ تدوم عادة بين ٤٠٬٠٠٠ و٦٠٬٠٠٠ كم، وأقل مع القيادة الحماسية",
+      "w": "نفس قصة التآكل في الفحمات الأمامية القياسية، لكن هذه للباقة الكبيرة من الفرامل، غالباً في الفئات الرياضية، والفحمات مختلفة في المقاس لا في الخامة فقط.",
+      "p": [
+        "تأكد من نوع الباقة قبل الطلب؛ إذا كانت فرامل السيارة قياسية فلن تركّب هذه.",
+        "استبدلها لمحور كامل ولا تستبدل جهة واحدة أبداً.",
+        "سيّحها بشكل صحيح وتوقع فترة تسييح قبل أن تشعر بالعضّة الصحيحة."
+      ]
+    }
+  },
+  "NC-PADS-REAR-EARLY": {
+    "en": {
+      "i": "Inspect every oil change; usually outlast the fronts",
+      "w": "Rear pads do less work than the fronts but seize more: the rear calipers carry the parking brake mechanism, and a lazy slide pin will wear one pad to nothing while its partner still looks new.",
+      "p": [
+        "Fits cars built up to 19 May 2011. The rear brake changed mid-production — the build date on the door plate decides the part, not the model year.",
+        "Check pad thickness on both sides of the axle, not one; uneven wear is the tell that a caliper is sticking.",
+        "Clean and grease the slide pins whenever the pads come off."
+      ]
+    },
+    "ar": {
+      "i": "افحصها مع كل تغيير زيت؛ تدوم عادة أطول من الأمامية",
+      "w": "الفحمات الخلفية تعمل أقل من الأمامية لكنها تعلق أكثر: الكاليبر الخلفي يحمل آلية فرامل اليد، ومسمار انزلاق كسول يستهلك فحمة حتى النهاية بينما تبدو شريكتها جديدة.",
+      "p": [
+        "تناسب السيارات المصنوعة حتى ١٩ مايو ٢٠١١. تغيّرت الفرامل الخلفية في منتصف الإنتاج، وتاريخ الصنع على لوحة الباب هو ما يحدد القطعة لا سنة الموديل.",
+        "افحص سماكة الفحمة على جهتي المحور لا جهة واحدة؛ التآكل غير المتساوي دليل على كاليبر عالق.",
+        "نظّف مسامير الانزلاق وشحّمها كلما فككت الفحمات."
+      ]
+    }
+  },
+  "NC-PADS-REAR-LATE": {
+    "en": {
+      "i": "Inspect every oil change; usually outlast the fronts",
+      "w": "Same rear-brake behaviour as the earlier cars — light duty, but the parking brake mechanism in the caliper means a sticking slide pin wears one side long before the other.",
+      "p": [
+        "Fits cars built from 19 May 2011 onward. Check the build date on the door plate; the model year will not tell you.",
+        "If you have ever been sold the wrong rear pads for an NC, this cut-off is why.",
+        "Clean and grease the slide pins whenever the pads come off."
+      ]
+    },
+    "ar": {
+      "i": "افحصها مع كل تغيير زيت؛ تدوم عادة أطول من الأمامية",
+      "w": "نفس سلوك الفرامل الخلفية في السيارات الأقدم: عمل خفيف، لكن آلية فرامل اليد داخل الكاليبر تعني أن مسمار انزلاق عالق يستهلك جهة قبل الأخرى بكثير.",
+      "p": [
+        "تناسب السيارات المصنوعة من ١٩ مايو ٢٠١١ فصاعداً. راجع تاريخ الصنع على لوحة الباب؛ سنة الموديل لن تفيدك.",
+        "إذا سبق أن بيعت لك فحمات خلفية خاطئة لـ NC فهذا التاريخ هو السبب.",
+        "نظّف مسامير الانزلاق وشحّمها كلما فككت الفحمات."
+      ]
+    }
+  },
+  "NC-PCV": {
+    "en": {
+      "i": "Inspect around 80,000–100,000 km; replace if it rattles dull or not at all",
+      "w": "A one-way valve living in oil mist. Carbon and sludge build up until it sticks: stuck open gives a rough idle and an oil-hungry engine, stuck closed pressurises the crankcase and pushes oil past seals that were fine.",
+      "p": [
+        "Shake it — a free valve rattles cleanly. It is a two-minute check.",
+        "Cheap part, expensive symptom: crankcase pressure gets blamed on rear main seals far more often than it should.",
+        "Worth doing alongside spark plugs since you are already at that end of the engine."
+      ]
+    },
+    "ar": {
+      "i": "افحصه عند ٨٠٬٠٠٠ إلى ١٠٠٬٠٠٠ كم؛ استبدله إذا كان صوت اهتزازه باهتاً أو معدوماً",
+      "w": "صمام باتجاه واحد يعيش داخل رذاذ الزيت. يتراكم الكربون والرواسب حتى يعلق: عالقاً مفتوحاً يعطي رالنتي مرتجفاً واستهلاك زيت، وعالقاً مغلقاً يرفع ضغط الكرتير فيدفع الزيت عبر جلود كانت سليمة.",
+      "p": [
+        "هزّه؛ الصمام السليم يصدر صوت اهتزاز واضحاً. فحص لا يتجاوز دقيقتين.",
+        "قطعة رخيصة بعرض مكلف: ضغط الكرتير يُحمَّل على جلدة الكرنك الخلفية أكثر مما يستحق.",
+        "يستحق تغييره مع البواجي ما دمت في هذه المنطقة من المحرك أصلاً."
+      ]
+    }
+  },
+  "NC-CLUTCH-MASTER": {
+    "en": {
+      "i": "No interval — replace on failure; flush the clutch fluid every 2–3 years to slow it down",
+      "w": "Rubber seals in an aluminium bore, heat-cycled for a decade. When they go the pedal loses its bite point gradually rather than all at once, and fluid quietly disappears from the reservoir.",
+      "p": [
+        "Symptom is a pedal that sinks to the floor, or a gearbox that will not take first at a standstill.",
+        "Look for fluid on the pedal-box carpet inside the cabin — that points to the master, not the slave.",
+        "Order by VIN at the HHA counter; the same body carried both 5-speed and 6-speed gearboxes."
+      ]
+    },
+    "ar": {
+      "i": "لا يوجد جدول؛ تُستبدل عند التلف، وتغيير زيت الكلتش كل سنتين إلى ثلاث يؤخّر ذلك",
+      "w": "جلود مطاطية داخل أسطوانة ألمنيوم تتعرض لدورات حرارية لعشر سنوات. عند تلفها يفقد الدواسة نقطة اشتباكها تدريجياً لا فجأة، ويختفي الزيت من الخزان بهدوء.",
+      "p": [
+        "العرض: دواسة تهبط حتى الأرض، أو قير لا يدخل الغيار الأول والسيارة واقفة.",
+        "ابحث عن زيت على فرش منطقة الدواسات داخل المقصورة؛ هذا يشير إلى المضخة العلوية لا السفلية.",
+        "اطلبها برقم الهيكل من وكيل HHA؛ نفس الهيكل جاء بقير عادي ٥ سرعات و٦ سرعات."
+      ]
+    }
+  },
+  "NC-CLUTCH-SLAVE": {
+    "en": {
+      "i": "No interval — replace on failure; many owners do master and slave together",
+      "w": "The same seals in a worse position: the slave sits on the bellhousing taking engine-bay heat directly. It is the more common of the two to fail, and it leaks onto the transmission where nobody sees it.",
+      "p": [
+        "Symptom matches the master — sinking pedal, poor disengagement. Where the fluid ends up is what tells them apart.",
+        "If the gearbox is already out for a clutch job, replace it regardless of condition; the labour is free at that point.",
+        "Bleed thoroughly afterwards. Trapped air in an NC clutch line mimics a failed cylinder."
+      ]
+    },
+    "ar": {
+      "i": "لا يوجد جدول؛ تُستبدل عند التلف، وكثيرون يغيّرون العلوية والسفلية معاً",
+      "w": "نفس الجلود في موقع أسوأ: المضخة السفلية مثبتة على بيت القير وتتلقى حرارة حجرة المحرك مباشرة. وهي الأكثر تلفاً بين الاثنتين، وتسرّب على القير حيث لا يراها أحد.",
+      "p": [
+        "العرض مطابق للمضخة العلوية: دواسة تهبط وضعف في فصل الكلتش. مكان تجمّع الزيت هو ما يفرّق بينهما.",
+        "إذا كان القير منزّلاً أصلاً لتغيير الكلتش فاستبدلها مهما كانت حالتها؛ الأجرة مدفوعة أصلاً.",
+        "نفّس الهواء جيداً بعدها؛ الهواء المحبوس في خط كلتش NC يقلّد عطل المضخة تماماً."
+      ]
+    }
+  },
+  "NC-CLUTCH-LINE": {
+    "en": {
+      "i": "No interval — replace when the pedal feels soft with no air in the system, or alongside the cylinders",
+      "w": "The flexible section perishes from the inside. As the rubber softens it balloons under pressure instead of moving fluid, so the pedal goes spongy and the clutch drags — usually blamed on the cylinders first.",
+      "p": [
+        "A braided stainless line is the common replacement here and noticeably sharpens pedal feel.",
+        "This is the part people skip when replacing both cylinders, then wonder why the pedal still is not right.",
+        "Order by VIN — line routing differs across build years."
+      ]
+    },
+    "ar": {
+      "i": "لا يوجد جدول؛ يُستبدل عندما تصبح الدواسة إسفنجية دون وجود هواء في النظام، أو مع المضختين",
+      "w": "الجزء المرن يتلف من الداخل. مع ليونة المطاط ينتفخ تحت الضغط بدل أن يدفع الزيت، فتصبح الدواسة إسفنجية ويسحب الكلتش، وتُحمَّل المشكلة على المضختين أولاً عادة.",
+      "p": [
+        "الخرطوم الستانلس المضفور هو البديل الشائع هنا ويحسّن إحساس الدواسة بشكل ملحوظ.",
+        "هذه القطعة التي يتجاهلها الناس عند تغيير المضختين، ثم يستغربون بقاء الدواسة غير سليمة.",
+        "اطلبه برقم الهيكل؛ مسار الخرطوم يختلف بين سنوات الصنع."
+      ]
+    }
+  }
+}

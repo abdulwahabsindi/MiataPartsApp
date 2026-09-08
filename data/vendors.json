@@ -1,0 +1,171 @@
+{
+  "vendors": [
+    {
+      "k": "hha",
+      "en": "Haji Husein Alireza & Co. (HHA)",
+      "ar": "الحاج حسين علي رضا وشركاه",
+      "tEn": "OEM dealer",
+      "tAr": "الوكيل المعتمد",
+      "u": "https://mazda.com.sa",
+      "p": "012-604-9444",
+      "dEn": "Mazda Saudi Arabia. Genuine parts counters nationwide — Jeddah, Riyadh and Al-Khobar distribution centres plus regional branches.",
+      "dAr": "وكيل مازدا في السعودية. أقسام قطع الغيار الأصلية في جدة والرياض والخبر إضافة إلى الفروع الإقليمية."
+    },
+    {
+      "k": "amazon_sa",
+      "en": "Amazon.sa",
+      "ar": "أمازون السعودية",
+      "tEn": "Online marketplace",
+      "tAr": "متجر إلكتروني",
+      "u": "https://www.amazon.sa",
+      "p": "",
+      "dEn": "",
+      "dAr": ""
+    },
+    {
+      "k": "noon",
+      "en": "noon.com KSA",
+      "ar": "نون السعودية",
+      "tEn": "Online marketplace",
+      "tAr": "متجر إلكتروني",
+      "u": "https://www.noon.com/saudi-en/automotive/",
+      "p": "",
+      "dEn": "",
+      "dAr": ""
+    },
+    {
+      "k": "falparts",
+      "en": "FalParts",
+      "ar": "فال بارتس",
+      "tEn": "Online parts retailer (KSA)",
+      "tAr": "متجر قطع غيار إلكتروني (السعودية)",
+      "u": "https://www.falparts.sa/en",
+      "p": "",
+      "dEn": "",
+      "dAr": ""
+    },
+    {
+      "k": "petromin",
+      "en": "Petromin Express",
+      "ar": "بترومين إكسبرس",
+      "tEn": "Service centres",
+      "tAr": "مراكز خدمة",
+      "u": "https://www.petromin.com",
+      "p": "",
+      "dEn": "Oils and filters over the counter.",
+      "dAr": "زيوت وفلاتر متوفرة مباشرة."
+    },
+    {
+      "k": "local_mazda",
+      "en": "Local Mazda parts resellers",
+      "ar": "محلات قطع غيار مازدا المحلية",
+      "tEn": "Local parts reseller",
+      "tAr": "محلات محلية",
+      "u": "",
+      "p": "",
+      "dEn": "",
+      "dAr": ""
+    },
+    {
+      "k": "local_ford",
+      "en": "Local Ford parts resellers",
+      "ar": "محلات قطع غيار فورد المحلية",
+      "tEn": "Local parts reseller",
+      "tAr": "محلات محلية",
+      "u": "",
+      "p": "",
+      "dEn": "Relevant because several NC service parts are shared with Ford applications.",
+      "dAr": "مهمة لأن عدداً من قطع صيانة NC مشتركة مع تطبيقات فورد."
+    },
+    {
+      "k": "rockauto",
+      "en": "RockAuto",
+      "ar": "روك أوتو",
+      "tEn": "International online",
+      "tAr": "متجر دولي",
+      "u": "https://www.rockauto.com",
+      "p": "",
+      "dEn": "Ships to KSA.",
+      "dAr": "يشحن إلى السعودية."
+    },
+    {
+      "k": "ebay",
+      "en": "eBay",
+      "ar": "إي باي",
+      "tEn": "International online",
+      "tAr": "متجر دولي",
+      "u": "https://www.ebay.com",
+      "p": "",
+      "dEn": "International shipping.",
+      "dAr": "شحن دولي."
+    },
+    {
+      "k": "fm",
+      "en": "Flyin' Miata",
+      "ar": "فلاين مياتا",
+      "tEn": "MX-5 specialist",
+      "tAr": "متخصص MX-5",
+      "u": "https://flyinmiata.com",
+      "p": "",
+      "dEn": "Ships internationally.",
+      "dAr": "يشحن دولياً."
+    },
+    {
+      "k": "gwr",
+      "en": "Good-Win Racing",
+      "ar": "قود وين ريسنق",
+      "tEn": "MX-5 specialist",
+      "tAr": "متخصص MX-5",
+      "u": "https://www.good-win-racing.com",
+      "p": "",
+      "dEn": "Ships internationally.",
+      "dAr": "يشحن دولياً."
+    }
+  ],
+  "vmap": [
+    [
+      "hha mazda",
+      "hha"
+    ],
+    [
+      "amazon",
+      "amazon_sa"
+    ],
+    [
+      "noon",
+      "noon"
+    ],
+    [
+      "falparts",
+      "falparts"
+    ],
+    [
+      "petromin",
+      "petromin"
+    ],
+    [
+      "local mazda",
+      "local_mazda"
+    ],
+    [
+      "local ford",
+      "local_ford"
+    ],
+    [
+      "rockauto",
+      "rockauto"
+    ],
+    [
+      "ebay",
+      "ebay"
+    ],
+    [
+      "flyin",
+      "fm"
+    ],
+    [
+      "good-win",
+      "gwr"
+    ]
+  ]
+}

@@ -1,0 +1,1093 @@
+[
+  {
+    "id": "NC-OIL-FILTER",
+    "cat": "Engine / Filters",
+    "en": "Oil filter",
+    "ar": "فلتر الزيت",
+    "fit": "All 2006-2015 NC, 2.0L",
+    "oem": "LF05-14-302B",
+    "sup": "LF10-14-302, LF10-14-302A, LF05-14-302A",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "LF05-14-302B",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Motorcraft",
+        "FL-910S",
+        "Direct",
+        1,
+        0
+      ],
+      [
+        "A",
+        "Motorcraft",
+        "EFL910",
+        "Direct",
+        2,
+        0
+      ],
+      [
+        "A",
+        "Mobil 1",
+        "M1-102",
+        "Direct",
+        3,
+        0
+      ],
+      [
+        "A",
+        "Bosch",
+        "3330",
+        "Direct",
+        3,
+        0
+      ],
+      [
+        "A",
+        "Denso",
+        "150-1002",
+        "Direct",
+        3,
+        0
+      ],
+      [
+        "A",
+        "Wix",
+        "51348",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Purolator",
+        "L10241 / PL10241",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Fram",
+        "PH3614",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "K&N",
+        "HP-1002",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Mann-Filter",
+        "W7015",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Hengst",
+        "H319W",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "NAPA Gold",
+        "1348",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Hastings",
+        "LF589",
+        "Direct",
+        -1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-DRAIN-WASHER",
+    "cat": "Engine / Service hardware",
+    "en": "Oil drain plug crush washer",
+    "ar": "وردة صامولة تصريف الزيت",
+    "fit": "All 2006-2015 NC",
+    "oem": "9956-41-400",
+    "sup": "",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "9956-41-400",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Generic aluminium",
+        "14 x 20 x 2 mm crush washer",
+        "Direct",
+        5,
+        -1
+      ],
+      [
+        "A",
+        "Generic copper",
+        "14 x 20 mm copper washer",
+        "Direct",
+        6,
+        -1
+      ],
+      [
+        "A",
+        "Flyin' Miata",
+        "04-29020",
+        "Direct",
+        -1,
+        1
+      ],
+      [
+        "A",
+        "Dorman",
+        "095-158",
+        "Direct",
+        -1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-AIR-FILTER",
+    "cat": "Engine / Filters",
+    "en": "Engine air filter",
+    "ar": "فلتر هواء المحرك",
+    "fit": "All 2006-2015 NC, 2.0L",
+    "oem": "LFG1-13-Z40",
+    "sup": "",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "LFG1-13-Z40",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Fram",
+        "CA10495",
+        "Direct",
+        3,
+        0
+      ],
+      [
+        "A",
+        "Wix",
+        "42863",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Denso",
+        "143-3094",
+        "Direct",
+        3,
+        0
+      ],
+      [
+        "A",
+        "K&N",
+        "33-2335",
+        "Direct",
+        4,
+        2
+      ],
+      [
+        "A",
+        "Mahle",
+        "LX3279",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Purolator",
+        "A25793",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Premium Guard",
+        "PA5793",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "STP",
+        "SA10495",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Baldwin",
+        "PA10248",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Hastings",
+        "AF1386",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Beck/Arnley",
+        "042-1715",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "NAPA",
+        "2863",
+        "Direct",
+        -1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-SPARK-PLUGS",
+    "cat": "Ignition",
+    "en": "Spark plugs (set of 4)",
+    "ar": "بواجي - شمعات الإشعال (طقم 4)",
+    "fit": "2006-2015 NC, 2.0L only",
+    "oem": "L3Y1-18-110",
+    "sup": "L3G2-18-110, LFJR-18-110",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "L3Y1-18-110",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "NGK",
+        "ILTR6A-13G (stock no. 3789)",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "NGK",
+        "LTR6BI-13 (stock no. 91725)",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "NGK",
+        "LTR6IX-11 (stock no. 6509)",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "NGK",
+        "Ruthenium HX 91276",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Denso",
+        "Iridium TT / Iridium Power (by application)",
+        "Direct",
+        4,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-IGNITION-COIL",
+    "cat": "Ignition",
+    "en": "Ignition coil (coil-on-plug, qty 4)",
+    "ar": "كويل الإشعال (عدد 4)",
+    "fit": "All 2006-2015 NC, 2.0L",
+    "oem": "LFB6-18-100C",
+    "sup": "LFB6-18-100, LFB6-18-100A, LFB6-18-100B, LFB6-18-100C-9U",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "LFB6-18-100C",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Delphi",
+        "GN10400",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Standard Motor Products",
+        "UF-541",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Beck/Arnley",
+        "178-8395",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Spectra Premium",
+        "C-779",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Walker Products",
+        "921-2178",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "BWD / Wells",
+        "E1041 / C1684",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Airtex / WVE",
+        "5C1741",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "NAPA",
+        "IC621SB",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Dorman",
+        "645-787",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "TRQ",
+        "Set of 4 (LFB6-18-100 ref.)",
+        "Direct",
+        7,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-COOLANT-TANK",
+    "cat": "Cooling",
+    "en": "Coolant expansion tank (pressurised)",
+    "ar": "خزان تمدد سائل التبريد",
+    "fit": "All 2006-2015 NC",
+    "oem": "LFG1-15-350C",
+    "sup": "LFG1-15-350, LFG1-15-350A, LFG1-15-350B",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "LFG1-15-350C",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Moroso",
+        "63779",
+        "Direct",
+        -1,
+        3
+      ],
+      [
+        "A",
+        "Jass Performance",
+        "NC aluminium expansion tank",
+        "Direct",
+        -1,
+        4
+      ],
+      [
+        "A",
+        "HCHCSPEED",
+        "LFG1-15-350C (aluminium)",
+        "Direct",
+        7,
+        0
+      ],
+      [
+        "A",
+        "Heinmo / EVIL ENERGY",
+        "MX-5 NC expansion tank",
+        "Direct",
+        8,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-THERMOSTAT",
+    "cat": "Cooling",
+    "en": "Thermostat / water outlet assembly",
+    "ar": "الثرموستات مع بيت الثرموستات",
+    "fit": "2006-2015 NC built from 09/2006 (earlier cars: LF94-15-17Z)",
+    "oem": "LF70-15-170",
+    "sup": "LF50-15-170, LF53-15-170, LFE5-15-170, LF94-15-179A",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "LF70-15-170",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Stant",
+        "48728",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Gates",
+        "34046",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Dorman",
+        "902-682",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Motorad",
+        "514-185",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Four Seasons",
+        "85994",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Beck/Arnley",
+        "143-0838",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Motorcraft",
+        "RT1221",
+        "Direct",
+        2,
+        0
+      ],
+      [
+        "A",
+        "Mahle",
+        "TX7688D",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "NAPA",
+        "441-180",
+        "Direct",
+        -1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-BELT-NC1",
+    "cat": "Engine / Drive belt",
+    "en": "Serpentine belt - NC1 (2006-2008) with A/C",
+    "ar": "سير المكينة - موديل 2006-2008",
+    "fit": "2006-2008 NC1 with A/C",
+    "oem": "LFG1-15-909B",
+    "sup": "LF9J-15-909A",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "LFG1-15-909B",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Gates",
+        "6PK2245 / K060883",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Dayco",
+        "5060883",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Continental / ContiTech",
+        "6PK2245",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Bando",
+        "6PK2245",
+        "Direct",
+        4,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-BELT-NC2",
+    "cat": "Engine / Drive belt",
+    "en": "Serpentine belt - NC2 / NC3 (2009-2015) with A/C",
+    "ar": "سير المكينة - موديل 2009-2015",
+    "fit": "2009-2015 NC2/NC3 with A/C (different alternator pulley - not interchangeable with NC1 belt)",
+    "oem": "LFJ5-15-909B",
+    "sup": "LFJ5-15-909A, LFJ5-15-909B-9U",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "LFJ5-15-909B",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Gates",
+        "6PK2255 / K060886",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Dayco",
+        "5060885",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Continental / ContiTech",
+        "6PK2255",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Bando",
+        "6PK2255",
+        "Direct",
+        4,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-PADS-FRONT-STD",
+    "cat": "Brakes",
+    "en": "Brake pads - front (standard brakes)",
+    "ar": "فحمات فرامل أمامية - المقاس القياسي",
+    "fit": "2006-2015 NC with standard front brakes",
+    "oem": "NFY7-33-28ZE",
+    "sup": "NFY7-33-23Z, NFY7-33-23ZA, NFY7-33-23ZB, NFY7-33-28ZB, NFY7-33-28ZC, NFY7-33-28ZD",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "NFY7-33-28ZE",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Akebono",
+        "ProACT (by application)",
+        "Direct",
+        4,
+        5
+      ],
+      [
+        "A",
+        "Centric / StopTech",
+        "Posi-Quiet (by application)",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "PowerStop",
+        "Z16 Evolution (OE replacement)",
+        "Direct",
+        7,
+        0
+      ],
+      [
+        "A",
+        "Brembo",
+        "By application",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Bosch",
+        "By application",
+        "Direct",
+        4,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-PADS-FRONT-BIG",
+    "cat": "Brakes",
+    "en": "Brake pads - front (large / sport brakes)",
+    "ar": "فحمات فرامل أمامية - المقاس الكبير",
+    "fit": "2006-2015 NC with the larger front brake package",
+    "oem": "NFY0-33-28Z",
+    "sup": "",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "NFY0-33-28Z",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Akebono",
+        "ProACT (by application)",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Centric / StopTech",
+        "Posi-Quiet (by application)",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Brembo",
+        "By application",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Bosch",
+        "By application",
+        "Direct",
+        4,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-PADS-REAR-EARLY",
+    "cat": "Brakes",
+    "en": "Brake pads - rear (built to 19/05/2011)",
+    "ar": "فحمات فرامل خلفية - إنتاج حتى 19/05/2011",
+    "fit": "NC built up to 19 May 2011",
+    "oem": "NFY7-26-48ZB",
+    "sup": "NFY7-26-48Z, NFY7-26-48ZA",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "NFY7-26-48ZB",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Akebono",
+        "ProACT (by application)",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Centric / StopTech",
+        "Posi-Quiet (by application)",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "PowerStop",
+        "Z16 Evolution (OE replacement)",
+        "Direct",
+        7,
+        0
+      ],
+      [
+        "A",
+        "Brembo",
+        "By application",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Bosch",
+        "By application",
+        "Direct",
+        4,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-PADS-REAR-LATE",
+    "cat": "Brakes",
+    "en": "Brake pads - rear (built from 19/05/2011)",
+    "ar": "فحمات فرامل خلفية - إنتاج من 19/05/2011",
+    "fit": "NC built from 19 May 2011",
+    "oem": "N2Y3-26-48ZB",
+    "sup": "NFY0-26-48Z",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "N2Y3-26-48ZB",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Akebono",
+        "ProACT (by application)",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Centric / StopTech",
+        "Posi-Quiet (by application)",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "PowerStop",
+        "Z16 Evolution (OE replacement)",
+        "Direct",
+        7,
+        0
+      ],
+      [
+        "A",
+        "Brembo",
+        "By application",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Bosch",
+        "By application",
+        "Direct",
+        4,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-PCV",
+    "cat": "Engine / Emissions",
+    "en": "PCV valve",
+    "ar": "صمام تهوية الكرتير PCV",
+    "fit": "All 2006-2015 NC, 2.0L",
+    "oem": "L325-13-890A",
+    "sup": "LF13-13-890",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "L325-13-890A",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Standard Motor Products",
+        "V433",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Beck/Arnley",
+        "045-0327",
+        "Direct",
+        -1,
+        0
+      ],
+      [
+        "A",
+        "Dorman",
+        "By application",
+        "Direct",
+        4,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-CLUTCH-MASTER",
+    "cat": "Clutch hydraulics",
+    "en": "Clutch master cylinder",
+    "ar": "مضخة الكلتش العلوية",
+    "fit": "2006-2015 NC, 5-speed and 6-speed",
+    "oem": "Order by VIN at HHA parts counter",
+    "sup": "",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "Order by VIN at HHA parts counter",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Exedy",
+        "MC575",
+        "Direct",
+        7,
+        6
+      ],
+      [
+        "A",
+        "Aisin",
+        "By application",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "LuK",
+        "By application",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Dorman",
+        "By application",
+        "Direct",
+        -1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-CLUTCH-SLAVE",
+    "cat": "Clutch hydraulics",
+    "en": "Clutch slave cylinder",
+    "ar": "مضخة الكلتش السفلية",
+    "fit": "2006-2015 NC, 5-speed and 6-speed",
+    "oem": "Order by VIN at HHA parts counter",
+    "sup": "",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "Order by VIN at HHA parts counter",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Exedy",
+        "SC575",
+        "Direct",
+        7,
+        6
+      ],
+      [
+        "A",
+        "Aisin",
+        "By application",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "LuK",
+        "By application",
+        "Direct",
+        4,
+        0
+      ],
+      [
+        "A",
+        "Centric",
+        "By application",
+        "Direct",
+        -1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "NC-CLUTCH-LINE",
+    "cat": "Clutch hydraulics",
+    "en": "Clutch hydraulic line",
+    "ar": "خرطوم الكلتش",
+    "fit": "2006-2015 NC",
+    "oem": "Order by VIN at HHA parts counter",
+    "sup": "",
+    "rows": [
+      [
+        "O",
+        "Mazda",
+        "Order by VIN at HHA parts counter",
+        "OEM",
+        0,
+        -1
+      ],
+      [
+        "A",
+        "Techna-Fit",
+        "57\" stainless clutch line (NC)",
+        "Direct",
+        -1,
+        7
+      ]
+    ]
+  }
+]

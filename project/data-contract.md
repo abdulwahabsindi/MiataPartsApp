@@ -13,14 +13,14 @@ Ceiling: 6500 characters.
 
 | Type | Const | Location |
 |---|---|---|
-| part | PARTS | `index.html` |
-| note | N | `index.html` |
-| vendor | VENDORS, VMAP | `index.html` |
-| source | KSA, INTL | `index.html` |
-| category | CAT_AR | `index.html` |
-| faq-question | FAQ | `index.html` |
-| ui-strings | T | `index.html` |
-| image | IMG | `index.html` |
+| part | PARTS | `data/parts.json` |
+| note | N | `data/notes.json` |
+| vendor | VENDORS, VMAP | `data/vendors.json` |
+| source | KSA, INTL | `data/sources.json` |
+| category | CAT_AR | `data/categories.json` |
+| faq-question | FAQ | `data/faq.json` |
+| ui-strings | T | `data/ui-strings.json` |
+| image | IMG | `data/images.json` |
 
 ## Part
 
@@ -101,6 +101,7 @@ VMAP. Array of `[substring, vendor key]`.
 
 ## Source
 
+- `sources.json` holds `ksa` and `intl`. `vendors.json` holds `vendors` and `vmap`.
 - KSA: 9 entries. INTL: 8 entries.
 - Arrays of comma-separated vendor name strings.
 - Addressed by index from `rows[4]` and `rows[5]`.
@@ -120,6 +121,7 @@ VMAP. Array of `[substring, vendor key]`.
 - T. Object keyed by `en` and `ar`, same key set in both.
 - Values are strings, or functions of `(n, t)`.
 - `dir` holds `ltr` or `rtl`.
+- `count` and `alts` are functions; they live in render code, not in `ui-strings.json`.
 
 ## Image
 
