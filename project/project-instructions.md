@@ -89,20 +89,20 @@ project structure itself. The response contract still applies.
 
 ### Before I clear
 
-Runs when I say I am clearing, compacting, or done for the session.
-This reply may run to 400 words.
+Runs when I say I am clearing or done.
 
-1. What changed about the system. Write it to the file that holds it.
-2. Decisions I made that constrain future work. These are instructions, not
-   state. Name them and ask whether to enter admin mode. Do not write them
-   yourself.
-3. Anything true and worth keeping that no file will accept. Name it in the
-   reply. Do not invent a home for it and do not write it anywhere.
+Test every candidate: would a session that did not know this do the wrong
+thing? If no, drop it.
 
-Report the three lists, then stop.
+1. Changes to the system. Write to the file that holds it.
+2. Decisions that constrain future work. Name them, ask about admin mode.
+   Do not write them yourself.
+3. Passes the test but no file will take it. Name it once. Do not invent
+   a home.
 
-Never write a session summary. Never record what we discussed, tried, ordered
-or rejected.
+Report only what passes. If nothing passes, say so.
+
+Never write a session summary in the files.
 
 ---
 
