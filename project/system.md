@@ -44,7 +44,7 @@ Ceiling: 4500 characters.
 | Inline blocks | KSA, INTL, VENDORS, VMAP, PARTS, IMG, N, CAT_AR, FAQ, T |
 | IMG | One line, 280 KB, base64 data URIs, 79% of the file |
 | Render logic | ~120 lines, end of file |
-| Catalogue master | `nc_miata_catalogue.xlsx`, off-repo |
+| Catalogue master | `data/*.json`, in repo. `nc_miata_catalogue.xlsx` retired |
 
 ## Environment
 
@@ -58,5 +58,4 @@ Ceiling: 4500 characters.
   empty-state string. Neither accepts input.
 - No authentication.
 - No versioning of catalogue data.
-- No validation. PARTS, N and IMG can disagree on ids without failing.
-- Two masters for catalogue data: the xlsx and the inline blocks.
+- No generator: `index.html` inline blocks are a manual copy of `data/` (the master). They can drift until the generator lands.
