@@ -125,16 +125,23 @@ VMAP. Array of `[substring, vendor key]`.
 
 ## Image
 
-IMG. Object keyed by part id.
+IMG. Object keyed by part id. `t` and `f` are both objects.
 
 | Field | Type | Holds |
 |---|---|---|
-| t | string | Thumbnail, base64 data URI |
-| f | string | Full image, base64 data URI |
+| t | object | Thumbnail |
+| f | object | Full image |
+| t.src, f.src | string | `data/images/<12 hex>.webp` |
+| t.w, t.h, f.w, f.h | integer | Intrinsic pixels |
+
+- Filename is the first 12 hex of the bytes' SHA-256. Identical images share one
+  file.
+- `scripts/images.mjs` writes the files and the record from a `data:image/webp`
+  URI or an existing path.
 
 ## Validation rules
 
-Not implemented.
+`scripts/validate.mjs`. CI runs it on PR and push to main.
 
 - Part ids are unique and match `NC-<SYSTEM>-<DETAIL>`.
 - No shipped part id changes between runs.
@@ -148,3 +155,8 @@ Not implemented.
 - Every VMAP key exists in VENDORS.
 - Every source string resolves to a vendor via VMAP, or is flagged.
 - `T.en` and `T.ar` have identical key sets.
+- Every IMG `src` matches `data/images/<12 hex>.webp` and the file exists.
+- Every IMG `w` and `h` is a positive integer.
+- Every `f.h` is 240 or greater. The drawer slot is 240px tall.
+- The IMG block inlined in `index.html` equals `data/images.json`.
+- A file in `data/images/` that no part references is flagged.
