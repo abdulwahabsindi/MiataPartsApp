@@ -33,6 +33,7 @@ Ceiling: 4500 characters.
 | 6 | Sign-in UI and post submission on the FAQ and part drawer |
 | 7 | `/admin` route |
 | 8 | Link Netlify to the repo for continuous deploy (Fayiz — has access; `netlify.toml` ready) |
+| 9 | Release/changelog process |
 
 ## Parked
 
