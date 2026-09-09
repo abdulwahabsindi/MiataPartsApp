@@ -77,6 +77,22 @@ for (const id of partIds) {
 for (const id of noteIds) if (!idSet.has(id)) err(`note has no matching part: ${id}`);
 for (const id of imgIds) if (!idSet.has(id)) err(`image has no matching part: ${id}`);
 
+for (const [id, rec] of Object.entries(IMG)) {
+  for (const size of ["t", "f"]) {
+    const v = rec[size];
+    if (!v || typeof v !== "object" || !/^images\/[0-9a-f]{12}\.webp$/.test(v.src))
+      err(`image ${id}.${size}: expected { src: "images/<hash>.webp", w, h }`);
+    else if (!fs.existsSync(path.join(DATA, v.src)))
+      err(`image file missing: data/${v.src} (${id}.${size})`);
+    else if (!Number.isInteger(v.w) || !Number.isInteger(v.h) || v.w < 1 || v.h < 1)
+      err(`image ${id}.${size}: w and h must be positive integers`);
+    // The drawer reserves a fixed 240px-tall slot, which only holds without
+    // upscaling while every full image is at least that tall.
+    else if (size === "f" && v.h < 240)
+      err(`image ${id}.f is ${v.w}x${v.h}: full images must be >= 240px tall`);
+  }
+}
+
 for (const [id, note] of Object.entries(N)) {
   for (const lang of ["en", "ar"]) {
     if (!note[lang]) { err(`note ${id}: missing "${lang}"`); continue; }
