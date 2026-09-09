@@ -9,7 +9,7 @@
 # with the generator call; the publish directory stays dist/.
 
 [build]
-  command = "rm -rf dist && mkdir -p dist && cp index.html dist/ && cp -R data/images dist/images"
+  command = "rm -rf dist && mkdir -p dist && cp index.html dist/ && mkdir -p dist/data && cp -R data/images dist/data/images"
   publish = "dist"
 
 # Static HTML, nothing to install.
@@ -18,6 +18,6 @@
 
 # Image filenames are content hashes, so a changed image is a new filename.
 [[headers]]
-  for = "/images/*"
+  for = "/data/images/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"

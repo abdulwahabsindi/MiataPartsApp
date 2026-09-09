@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Normalises data/images.json. A value may be a `data:image/webp;base64,...`
-// URI (a newly added image) or an existing `images/<hash>.webp` path; either
+// URI (a newly added image) or an existing `data/images/<hash>.webp` path; either
 // way the bytes are written to a content-addressed file and the record is
 // rewritten to { src, w, h }. Identical images share one file.
 // Idempotent: run it after adding an image, then run validate.mjs.
@@ -42,10 +42,10 @@ for (const [id, rec] of Object.entries(img)) {
     let buf;
     const m = /^data:image\/webp;base64,(.+)$/s.exec(value ?? "");
     if (m) buf = Buffer.from(m[1], "base64");
-    else if (/^images\/[0-9a-f]{12}\.webp$/.test(value ?? ""))
-      buf = readFileSync(new URL(value.slice("images/".length), DIR));
+    else if (/^data\/images\/[0-9a-f]{12}\.webp$/.test(value ?? ""))
+      buf = readFileSync(new URL(value.slice("data/images/".length), DIR));
     else {
-      console.error(`${id}.${size}: expected a webp data URI or images/<hash>.webp`);
+      console.error(`${id}.${size}: expected a webp data URI or data/images/<hash>.webp`);
       process.exit(1);
     }
     const name = `${createHash("sha256").update(buf).digest("hex").slice(0, 12)}.webp`;
@@ -53,7 +53,7 @@ for (const [id, rec] of Object.entries(img)) {
       writeFileSync(new URL(name, DIR), buf);
       written.add(name);
     }
-    out[id][size] = { src: `images/${name}`, ...webpSize(buf) };
+    out[id][size] = { src: `data/images/${name}`, ...webpSize(buf) };
   }
 }
 

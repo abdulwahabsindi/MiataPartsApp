@@ -80,10 +80,10 @@ for (const id of imgIds) if (!idSet.has(id)) err(`image has no matching part: ${
 for (const [id, rec] of Object.entries(IMG)) {
   for (const size of ["t", "f"]) {
     const v = rec[size];
-    if (!v || typeof v !== "object" || !/^images\/[0-9a-f]{12}\.webp$/.test(v.src))
-      err(`image ${id}.${size}: expected { src: "images/<hash>.webp", w, h }`);
-    else if (!fs.existsSync(path.join(DATA, v.src)))
-      err(`image file missing: data/${v.src} (${id}.${size})`);
+    if (!v || typeof v !== "object" || !/^data\/images\/[0-9a-f]{12}\.webp$/.test(v.src))
+      err(`image ${id}.${size}: expected { src: "data/images/<hash>.webp", w, h }`);
+    else if (!fs.existsSync(path.join(ROOT, v.src)))
+      err(`image file missing: ${v.src} (${id}.${size})`);
     else if (!Number.isInteger(v.w) || !Number.isInteger(v.h) || v.w < 1 || v.h < 1)
       err(`image ${id}.${size}: w and h must be positive integers`);
     // The drawer reserves a fixed 240px-tall slot, which only holds without
