@@ -23,17 +23,16 @@ Ceiling: 4500 characters.
 
 ## Queued
 
-| # | Item |
-|---|---|
-| 1 | Move images out of base64 into files, WebP, build-time thumbnails |
-| 2 | Split `index.html` into modules under `src/` |
-| 3 | Create the Firebase project, enable Google and Apple sign-in |
-| 4 | Firestore collections, security rules, rules tests |
-| 5 | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
-| 6 | Sign-in UI and post submission on the FAQ and part drawer |
-| 7 | `/admin` route |
-| 8 | Link Netlify to the repo for continuous deploy (Fayiz — has access; `netlify.toml` ready) |
-| 9 | Release/changelog process |
+| # | Track | Item |
+|---|---|---|
+| 1 | Standalone | Split `index.html` into modules under `src/` |
+| 2 | Standalone | Link Netlify to the repo for continuous deploy (Fayiz — has access; `netlify.toml` ready) |
+| 3 | Standalone | Release/changelog process |
+| 4 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
+| 5 | Firebase | Firestore collections, security rules, rules tests |
+| 6 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
+| 7 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
+| 8 | Firebase | `/admin` route |
 
 ## Parked
 
