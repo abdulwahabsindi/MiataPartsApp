@@ -16,6 +16,8 @@ Ceiling: 4500 characters.
 | Build tooling | Vite, or stay dependency-free | Module split |
 | FAQ question ids | Add stable ids, or keep array positions | Posts targeting a question |
 | Verified flag | Add a per-record flag, or leave all records draft | Verification workflow |
+| Backend provider | Firebase Blaze, or Supabase | Firebase track (4-8) |
+| Image hosting | Static files on Netlify, or object storage on the backend | Photo changes without a redeploy |
 
 ## In flight
 
