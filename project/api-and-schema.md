@@ -100,4 +100,4 @@ Status: designed, not provisioned. No Firebase project exists yet.
 | Billing account | None |
 | Firestore reads | 50,000 per day |
 | Firestore writes | 20,000 per day |
-| Functions egress | Google services only on Spark |
+| Functions | Not available on Spark. Require Blaze |
