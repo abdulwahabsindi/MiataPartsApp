@@ -16,17 +16,22 @@ Ceiling: 4500 characters.
 | Site host | Netlify |
 | URL | https://mx5ncksa.netlify.app |
 | Backend | Firebase (Auth, Firestore, Functions), not provisioned |
-| Deploy | Manual upload of `index.html` and `data/images/` |
+| Deploy | Manual upload of `dist/` |
 | Live build | 354 KB, base64 images. Behind `main` |
-| CI | GitHub Actions: `validate.mjs` on PR and push to main |
+| CI | GitHub Actions: `validate.mjs` then `build.mjs`, on PR and push to main |
 | Git remote | github.com/abdulwahabsindi/MiataPartsApp (private) |
 | Custom domain | None |
 
 ## Build
 
-- None. `index.html` is hand-edited.
-- `netlify.toml` assembles `dist/`: `index.html`, and `data/images` to
-  `dist/data/images`. Not linked to the repo yet.
+- `scripts/build.mjs` assembles `dist/` from `src/` and `data/`. No
+  dependencies.
+- Output: one self-contained `dist/index.html`, plus `data/images` copied to
+  `dist/data/images`.
+- `index.html` is generated, never committed. `dist/` is git-ignored.
+- Node 26.8.1, pinned in `netlify.toml` and `.github/workflows/validate.yml`.
+- `netlify.toml`: command `node scripts/build.mjs`, publish `dist`. Not linked
+  to the repo yet.
 - `/data/images/*` served `public, max-age=31536000, immutable`.
 
 ## Runtime dependencies
@@ -43,11 +48,11 @@ Ceiling: 4500 characters.
 
 | Item | Value |
 |---|---|
-| Files | `index.html`, plus `data/images/`: 28 `.webp`, 228 KB |
-| Size | `index.html` 76 KB, 525 lines |
-| Inline blocks | KSA, INTL, VENDORS, VMAP, PARTS, IMG, N, CAT_AR, FAQ, T |
+| Files | `src/`: `page.html`, 2 `.css`, 6 `.js`. `data/images/`: 28 `.webp`, 228 KB |
+| Size | `dist/index.html` 74 KB, 461 lines |
+| Inline blocks | KSA, INTL, VENDORS, VMAP, PARTS, IMG, N, CAT_AR, FAQ, T. Generated |
 | IMG | One line, 1.6 KB, paths into `data/images/` |
-| Render logic | ~120 lines, end of file |
+| Render logic | `src/js/`: sources, format, state, render, drawer, main |
 | Catalogue master | `data/*.json`, in repo. `archive/nc_miata_catalogue.xlsx` retired |
 
 ## Environment
@@ -62,6 +67,3 @@ Ceiling: 4500 characters.
   empty-state string. Neither accepts input.
 - No authentication.
 - No versioning of catalogue data.
-- No generator: `index.html` inline blocks are a manual copy of `data/` (the master). They can drift until the generator lands.
-- `scripts/images.mjs` rewrites `data/images.json` but not the IMG block in
-  `index.html`. Re-inline it by hand. `validate.mjs` fails on drift.

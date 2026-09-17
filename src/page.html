@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Frequently replaced parts for the Mazda MX-5 (NC, 2006-2015): OEM numbers, brand cross-references, and where to buy in Saudi Arabia and abroad. English and Arabic.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="NC Miata Parts Counter">
+<meta property="og:description" content="Frequently replaced parts for the Mazda MX-5 NC, with OEM numbers, brand alternatives and Saudi sourcing.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A7%3C/text%3E%3C/svg%3E">
+<style>
+{{CSS_BASE}}
+</style>
+<title>NC Miata Parts Counter</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+{{CSS_APP}}
+</style>
+
+</head>
+<body>
+<div id="app" dir="ltr">
+  <header class="mast">
+    <div class="wrap mast-in">
+      <div class="mast-top">
+        <div class="brandline">
+          <span class="chassis">NC</span>
+          <span class="kicker" data-t="kicker"></span>
+        </div>
+        <div class="mast-tools">
+          <div class="langsw" role="group" aria-label="Language">
+            <button id="btn-en" aria-pressed="true">EN</button>
+            <button id="btn-ar" aria-pressed="false" style="font-family:var(--arab)">عربي</button>
+          </div>
+        </div>
+      </div>
+      <h1 data-t="title"></h1>
+      <p class="sub" data-t="sub"></p>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="wrap controls-in">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        <input id="q" type="search" autocomplete="off">
+      </div>
+      <div class="cats" id="cats"></div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <div class="count" id="count"></div>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <section class="band">
+    <div class="wrap">
+      <h2 data-t="faqH"></h2>
+      <p class="lede" data-t="faqLede"></p>
+      <div class="faqlist" id="faqlist"></div>
+    </div>
+  </section>
+
+  <section class="band" style="background:var(--ground)">
+    <div class="wrap">
+      <h2 data-t="venH"></h2>
+      <p class="lede" data-t="venLede"></p>
+      <div class="vendors" id="vendors"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap credit" data-t="credit"></div>
+    <div class="wrap fl">
+      <span data-t="foot1"></span>
+      <span data-t="foot2"></span>
+    </div>
+  </footer>
+
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dtitle" tabindex="-1"></aside>
+</div>
+
+{{DATA}}
+
+<script>
+{{JS}}
+</script>
+
+</body>
+</html>

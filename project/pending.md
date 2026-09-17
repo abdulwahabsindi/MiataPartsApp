@@ -13,10 +13,9 @@ Ceiling: 4500 characters.
 
 | Decision | Options | Blocks |
 |---|---|---|
-| Build tooling | Vite, or stay dependency-free | Module split |
 | FAQ question ids | Add stable ids, or keep array positions | Posts targeting a question |
 | Verified flag | Add a per-record flag, or leave all records draft | Verification workflow |
-| Backend provider | Firebase Blaze, or Supabase | Firebase track (5-9) |
+| Backend provider | Firebase Blaze, or Supabase | Firebase track (4-8) |
 | Image hosting | Static files on Netlify, or object storage on the backend | Photo changes without a redeploy |
 
 ## In flight
@@ -28,14 +27,13 @@ Ceiling: 4500 characters.
 | # | Track | Item |
 |---|---|---|
 | 1 | Process | Tune Claude's response contract in `project-instructions.md` (admin mode) |
-| 2 | Standalone | Split `index.html` into modules under `src/`, and generate it from `data/` — no hand-pasted data blocks, CI fails on a stale committed file |
-| 3 | Standalone | Link Netlify to the repo for continuous deploy (Fayiz — has access; `netlify.toml` ready) |
-| 4 | Standalone | Release/changelog process |
-| 5 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
-| 6 | Firebase | Firestore collections, security rules, rules tests |
-| 7 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
-| 8 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
-| 9 | Firebase | `/admin` route |
+| 2 | Standalone | Link Netlify to the repo for continuous deploy (Fayiz — check the plan: Free/Personal blocks private-repo Git Contributors; link the repo on `main`; start a deploy) |
+| 3 | Standalone | Release/changelog process |
+| 4 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
+| 5 | Firebase | Firestore collections, security rules, rules tests |
+| 6 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
+| 7 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
+| 8 | Firebase | `/admin` route |
 
 ## Parked
 
