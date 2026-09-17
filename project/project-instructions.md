@@ -53,7 +53,8 @@ defect.
 The roadmap is mine. The order of `pending.md` is mine.
 
 Stack changes, refactors, dependency additions and hosting moves: propose, do not
-start.
+start. The stack is dependency-free by decision, not by accident: no package
+manager, no lockfile, no bundler. Reopening that is a proposal, not a cleanup.
 
 ### Never
 
