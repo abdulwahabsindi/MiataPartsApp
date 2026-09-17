@@ -29,6 +29,8 @@ Ceiling: 4500 characters.
 - Output: one self-contained `dist/index.html`, plus `data/images` copied to
   `dist/data/images`.
 - `index.html` is generated, never committed. `dist/` is git-ignored.
+- `src/js/` is concatenated into one classic script in the order set by
+  `JS_FILES` in `build.mjs`. Not ES modules: no `import`, no `export`.
 - Node 26.8.1, pinned in `netlify.toml` and `.github/workflows/validate.yml`.
 - `netlify.toml`: command `node scripts/build.mjs`, publish `dist`. Not linked
   to the repo yet.
