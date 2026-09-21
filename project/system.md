@@ -16,9 +16,9 @@ Ceiling: 4500 characters.
 | Site host | Netlify |
 | URL | https://mx5ncksa.netlify.app |
 | Backend | Firebase (Auth, Firestore, Functions), not provisioned |
-| Deploy | Manual upload of `index.html` and `data/images/` |
-| Live build | 354 KB, base64 images. Behind `main` |
-| CI | GitHub Actions: `validate.mjs` on PR and push to main |
+| Deploy | GitHub Actions on push to `main`: `netlify-cli deploy --build --prod` |
+| Live build | 354 KB, base64 images. Tracks `main` |
+| CI | GitHub Actions `validate.yml`: `validate.mjs` on PR and push to main, then `deploy` on main |
 | Git remote | github.com/abdulwahabsindi/MiataPartsApp (private) |
 | Custom domain | None |
 
@@ -26,7 +26,8 @@ Ceiling: 4500 characters.
 
 - None. `index.html` is hand-edited.
 - `netlify.toml` assembles `dist/`: `index.html`, and `data/images` to
-  `dist/data/images`. Not linked to the repo yet.
+  `dist/data/images`. Run by the CLI in CI; Netlify's Git integration is
+  not used.
 - `/data/images/*` served `public, max-age=31536000, immutable`.
 
 ## Runtime dependencies
@@ -52,9 +53,13 @@ Ceiling: 4500 characters.
 
 ## Environment
 
-- No environment variables.
-- No secrets.
+- No environment variables at runtime.
 - No API keys.
+
+| GitHub Actions secret | Holds |
+|---|---|
+| `NETLIFY_AUTH_TOKEN` | Netlify personal access token, Fayiz's account |
+| `NETLIFY_SITE_ID` | Netlify site id for mx5ncksa |
 
 ## Known limits
 

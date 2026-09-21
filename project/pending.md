@@ -21,7 +21,9 @@ Ceiling: 4500 characters.
 
 ## In flight
 
-- Nothing.
+- Continuous deploy: GitHub Actions runs `netlify-cli deploy --build --prod`
+  on push to `main` (Fayiz). Needs `NETLIFY_AUTH_TOKEN` and `NETLIFY_SITE_ID`
+  as repo secrets before merge.
 
 ## Queued
 
@@ -29,13 +31,12 @@ Ceiling: 4500 characters.
 |---|---|---|
 | 1 | Process | Tune Claude's response contract in `project-instructions.md` (admin mode) |
 | 2 | Standalone | Split `index.html` into modules under `src/`, and generate it from `data/` — no hand-pasted data blocks, CI fails on a stale committed file |
-| 3 | Standalone | Link Netlify to the repo for continuous deploy (Fayiz — has access; `netlify.toml` ready) |
-| 4 | Standalone | Release/changelog process |
-| 5 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
-| 6 | Firebase | Firestore collections, security rules, rules tests |
-| 7 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
-| 8 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
-| 9 | Firebase | `/admin` route |
+| 3 | Standalone | Release/changelog process |
+| 4 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
+| 5 | Firebase | Firestore collections, security rules, rules tests |
+| 6 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
+| 7 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
+| 8 | Firebase | `/admin` route |
 
 ## Parked
 

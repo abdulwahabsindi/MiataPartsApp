@@ -2,11 +2,15 @@ name: validate
 
 # Runs the catalogue validator on every PR and on pushes to main, so a bad or
 # mismatched part can't be merged even if someone forgets to run it locally.
+# A push to main that validates then deploys the site.
 
 on:
   pull_request:
   push:
     branches: [main]
+
+permissions:
+  contents: read
 
 jobs:
   validate:
@@ -20,3 +24,24 @@ jobs:
         run: node scripts/validate.mjs
       - name: catalogue.md is regenerated and committed
         run: git diff --exit-code project/catalogue.md
+
+  # Deploys as the token holder, not as the person who pushed. Netlify's Git
+  # integration is deliberately not used: on the Free plan it blocks builds from
+  # contributors who are not verified members of the Netlify account.
+  deploy:
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "26.8.1"
+      - name: Build and deploy to Netlify
+        run: npx --yes netlify-cli@27 deploy --build --prod
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
