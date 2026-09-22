@@ -1,10 +1,10 @@
 # pending.md
 
-Holds: decided work not yet done, and open decisions waiting on me.
-Write when: a decision is asked for, an item starts, an item ships, or I park
+Holds: decided work not yet done, and open decisions waiting on us.
+Write when: a decision is asked for, an item starts, an item ships, or we park
 something.
 Never goes in: completed work (delete the line), reasons, estimates, priorities
-I did not set, ideas I did not ask for.
+we did not set, ideas we did not ask for.
 Ceiling: 4500 characters.
 
 ---
