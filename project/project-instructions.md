@@ -59,6 +59,28 @@ The roadmap is ours. The order of `pending.md` is ours.
 Stack changes, refactors, dependency additions and hosting moves: propose, do not
 start.
 
+### Review and merge
+
+Verify every PR. Never merge one.
+
+Before a verdict:
+
+- `scripts/validate.mjs` passes on the head commit.
+- Every part touched has both languages.
+- CI is green on the head commit.
+- The diff is read against Part 1, `data-contract.md`, and each file's header
+  contract.
+- Conflicts with `main` are named, with a resolution.
+
+Report one verdict: green, or the blocking items. Never merge. Never push to
+`main`.
+
+Either owner merges a green PR, including their own. A verdict that is not green
+blocks the merge, whoever wrote the PR.
+
+Both owners on a PR that changes the roadmap, the order of `pending.md`, or
+`data/`.
+
 ### Never
 
 Look up a part number, an OEM number, a fitment or an interval on the web. Part
