@@ -15,7 +15,7 @@ Ceiling: 4500 characters.
 |---|---|---|
 | FAQ question ids | Add stable ids, or keep array positions | Posts targeting a question |
 | Verified flag | Add a per-record flag, or leave all records draft | Verification workflow |
-| Backend provider | Firebase Blaze, or Supabase | Firebase track (3-7) |
+| Backend provider | Firebase Blaze, or Supabase | Firebase track (2-6) |
 | Image hosting | Static files on Netlify, or object storage on the backend | Photo changes without a redeploy |
 
 ## In flight
@@ -26,13 +26,12 @@ Ceiling: 4500 characters.
 
 | # | Track | Item |
 |---|---|---|
-| 1 | Standalone | Link Netlify to the repo for continuous deploy (Fayiz — has access; `netlify.toml` ready) |
-| 2 | Standalone | Release/changelog process |
-| 3 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
-| 4 | Firebase | Firestore collections, security rules, rules tests |
-| 5 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
-| 6 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
-| 7 | Firebase | `/admin` route |
+| 1 | Standalone | Release/changelog process |
+| 2 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
+| 3 | Firebase | Firestore collections, security rules, rules tests |
+| 4 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
+| 5 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
+| 6 | Firebase | `/admin` route |
 
 ## Parked
 

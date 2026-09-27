@@ -16,9 +16,9 @@ Ceiling: 4500 characters.
 | Site host | Netlify |
 | URL | https://mx5ncksa.netlify.app |
 | Backend | Firebase (Auth, Firestore, Functions), not provisioned |
-| Deploy | Manual upload of `dist/` |
+| Deploy | GitHub Actions on push to `main`: `netlify-cli@27.10.0 deploy --build --prod` |
 | Live build | 354 KB, base64 images. Behind `main` |
-| CI | GitHub Actions: `validate.mjs` then `build.mjs`, on PR and push to main |
+| CI | GitHub Actions `validate.yml`: `validate.mjs` then `build.mjs` on PR and push to main, then `deploy` on main |
 | Git remote | github.com/abdulwahabsindi/MiataPartsApp (private) |
 | Custom domain | None |
 
@@ -32,8 +32,8 @@ Ceiling: 4500 characters.
 - `src/js/` is concatenated into one classic script in the order set by
   `JS_FILES` in `build.mjs`. Not ES modules: no `import`, no `export`.
 - Node 26.8.1, pinned in `netlify.toml` and `.github/workflows/validate.yml`.
-- `netlify.toml`: command `node scripts/build.mjs`, publish `dist`. Not linked
-  to the repo yet.
+- `netlify.toml`: command `node scripts/build.mjs`, publish `dist`. Run by
+  `netlify-cli` in CI; Netlify's Git integration is not used.
 - `/data/images/*` served `public, max-age=31536000, immutable`.
 
 ## Runtime dependencies
@@ -59,9 +59,13 @@ Ceiling: 4500 characters.
 
 ## Environment
 
-- No environment variables.
-- No secrets.
+- No environment variables at runtime.
 - No API keys.
+
+| GitHub Actions secret | Holds |
+|---|---|
+| `NETLIFY_AUTH_TOKEN` | Netlify personal access token, Fayiz's account |
+| `NETLIFY_SITE_ID` | Netlify site id for mx5ncksa |
 
 ## Known limits
 
