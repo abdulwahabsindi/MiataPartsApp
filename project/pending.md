@@ -15,7 +15,7 @@ Ceiling: 4500 characters.
 |---|---|---|
 | FAQ question ids | Add stable ids, or keep array positions | Posts targeting a question |
 | Verified flag | Add a per-record flag, or leave all records draft | Verification workflow |
-| Backend provider | Firebase Blaze, or Supabase | Firebase track (2-6) |
+| Backend provider | Firebase Blaze, or Supabase | Firebase track (4-8) |
 | Image hosting | Static files on Netlify, or object storage on the backend | Photo changes without a redeploy |
 
 ## In flight
@@ -26,12 +26,14 @@ Ceiling: 4500 characters.
 
 | # | Track | Item |
 |---|---|---|
-| 1 | Standalone | Release/changelog process |
-| 2 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
-| 3 | Firebase | Firestore collections, security rules, rules tests |
-| 4 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
-| 5 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
-| 6 | Firebase | `/admin` route |
+| 1 | Standalone | Confirm the repo is unlinked in Netlify → Build & deploy → Continuous deployment (Fayiz — account holder). Linked means two deploys race per merge |
+| 2 | Standalone | Rotate `NETLIFY_AUTH_TOKEN`: the live value reached a chat app (Fayiz — account holder) |
+| 3 | Standalone | Release/changelog process |
+| 4 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
+| 5 | Firebase | Firestore collections, security rules, rules tests |
+| 6 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
+| 7 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
+| 8 | Firebase | `/admin` route |
 
 ## Parked
 
