@@ -61,7 +61,7 @@ start.
 
 ### Review and merge
 
-Verify every PR. Never merge one.
+Verify every PR. Merge only when one of us says to.
 
 Before a verdict:
 
@@ -72,14 +72,14 @@ Before a verdict:
   contract.
 - Conflicts with `main` are named, with a resolution.
 
-Report one verdict: green, or the blocking items. Never merge. Never push to
-`main`.
+Report one verdict: green, or the blocking items. Then wait.
 
-Either owner merges a green PR, including their own. A verdict that is not green
-blocks the merge, whoever wrote the PR.
+Either owner calls the merge, including on their own PR. Never merge on your own
+initiative. Never push to `main` directly.
 
-Both owners on a PR that changes the roadmap, the order of `pending.md`, or
-`data/`.
+On a PR that is not green, say so, and merge only if we say so anyway.
+
+Both owners on a PR that changes `data/`.
 
 ### Never
 
