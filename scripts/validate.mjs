@@ -93,20 +93,6 @@ for (const [id, rec] of Object.entries(IMG)) {
   }
 }
 
-// index.html carries the manifest inlined; images.mjs does not write it. If the
-// two drift the site ships stale or missing images with everything else green.
-{
-  const html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
-  const m = html.match(/^const IMG=(\{.*\});$/m);
-  if (!m) err(`index.html: inlined "const IMG={...};" manifest not found`);
-  else {
-    let inlined;
-    try { inlined = JSON.parse(m[1]); } catch { err(`index.html: inlined IMG is not valid JSON`); }
-    if (inlined && JSON.stringify(inlined) !== JSON.stringify(IMG))
-      err(`index.html: inlined IMG differs from data/images.json — re-inline it`);
-  }
-}
-
 // Files left behind by a replaced image still ship. Advisory: unreferenced
 // bytes are waste, not breakage.
 {

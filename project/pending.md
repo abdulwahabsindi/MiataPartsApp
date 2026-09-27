@@ -13,10 +13,9 @@ Ceiling: 4500 characters.
 
 | Decision | Options | Blocks |
 |---|---|---|
-| Build tooling | Vite, or stay dependency-free | Module split |
 | FAQ question ids | Add stable ids, or keep array positions | Posts targeting a question |
 | Verified flag | Add a per-record flag, or leave all records draft | Verification workflow |
-| Backend provider | Firebase Blaze, or Supabase | Firebase track (4-8) |
+| Backend provider | Firebase Blaze, or Supabase | Firebase track (3-7) |
 | Image hosting | Static files on Netlify, or object storage on the backend | Photo changes without a redeploy |
 
 ## In flight
@@ -27,14 +26,13 @@ Ceiling: 4500 characters.
 
 | # | Track | Item |
 |---|---|---|
-| 1 | Standalone | Split `index.html` into modules under `src/`, and generate it from `data/` — no hand-pasted data blocks, CI fails on a stale committed file |
-| 2 | Standalone | Link Netlify to the repo for continuous deploy (Fayiz — has access; `netlify.toml` ready) |
-| 3 | Standalone | Release/changelog process |
-| 4 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
-| 5 | Firebase | Firestore collections, security rules, rules tests |
-| 6 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
-| 7 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
-| 8 | Firebase | `/admin` route |
+| 1 | Standalone | Link Netlify to the repo for continuous deploy (Fayiz — has access; `netlify.toml` ready) |
+| 2 | Standalone | Release/changelog process |
+| 3 | Firebase | Create the Firebase project, enable Google and Apple sign-in |
+| 4 | Firebase | Firestore collections, security rules, rules tests |
+| 5 | Firebase | Cloud Functions: onUserCreate, onPostCreate, onPostApprove, setAdmin |
+| 6 | Firebase | Sign-in UI and post submission on the FAQ and part drawer |
+| 7 | Firebase | `/admin` route |
 
 ## Parked
 

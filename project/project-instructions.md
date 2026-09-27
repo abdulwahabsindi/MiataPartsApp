@@ -62,7 +62,8 @@ target, truncation, a string that will not fit in Arabic. Taste is not a defect.
 The roadmap is ours. The order of `pending.md` is ours.
 
 Stack changes, refactors, dependency additions and hosting moves: propose, do not
-start.
+start. The stack is dependency-free by decision, not by accident: no package
+manager, no lockfile, no bundler. Reopening that is a proposal, not a cleanup.
 
 ### Review and merge
 
