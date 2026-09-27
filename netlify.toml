@@ -1,19 +1,20 @@
 # Netlify continuous deploy.
 #
-# Publishes ONLY the built site (dist/index.html), never the repo root — so the
-# internal files (project/, docs/, .claude/, scripts/, CLAUDE.md) are not served
-# publicly. The build step assembles dist/ from the deployable files only.
+# Publishes ONLY the built site (dist/), never the repo root — so the internal
+# files (project/, docs/, .claude/, scripts/, src/, CLAUDE.md) are not served
+# publicly. scripts/build.mjs assembles dist/ from src/ and data/: one
+# self-contained index.html, plus the hashed image files beside it.
 #
-# Today the site is index.html plus the hashed image files, so the build just
-# copies them in. When the data/ -> index.html generator lands, replace the copy
-# with the generator call; the publish directory stays dist/.
+# NODE_VERSION matches the version in .github/workflows/validate.yml. Change
+# both together.
 
 [build]
-  command = "rm -rf dist && mkdir -p dist && cp index.html dist/ && mkdir -p dist/data && cp -R data/images dist/data/images"
+  command = "node scripts/build.mjs"
   publish = "dist"
 
-# Static HTML, nothing to install.
+# No dependencies: the generator is plain Node, and the site ships no libraries.
 [build.environment]
+  NODE_VERSION = "26.8.1"
   NETLIFY_USE_YARN = "false"
 
 # Image filenames are content hashes, so a changed image is a new filename.
