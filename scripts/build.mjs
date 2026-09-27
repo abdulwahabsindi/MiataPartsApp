@@ -7,6 +7,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import vm from "node:vm";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = path.join(ROOT, "src");
@@ -50,7 +51,37 @@ const DATA_BLOCKS = [
 // single file with no extra requests, and every top-level name stays in the
 // one scope the render logic already assumes. Order is load-bearing.
 const JS_FILES = ["sources.js", "format.js", "state.js", "render.js", "drawer.js", "main.js"];
-const JS = JS_FILES.map(f => readSrc(path.join("js", f))).join("\n\n");
+
+// The list is the build order, so it cannot be derived from the directory. Fail
+// on a file that is present and unlisted: it would be dropped from the page
+// silently.
+const onDisk = fs.readdirSync(path.join(SRC, "js")).filter(f => f.endsWith(".js")).sort();
+const listed = [...JS_FILES].sort();
+if (onDisk.join() !== listed.join()) {
+  const unlisted = onDisk.filter(f => !listed.includes(f));
+  const missing = listed.filter(f => !onDisk.includes(f));
+  if (unlisted.length) console.error(`FAIL — src/js/ has files JS_FILES does not list: ${unlisted.join(", ")}`);
+  if (missing.length) console.error(`FAIL — JS_FILES lists files not in src/js/: ${missing.join(", ")}`);
+  process.exit(1);
+}
+
+// Compile each file, then the concatenation, without running either. A syntax
+// error would otherwise reach the page, which loads blank with nothing in the
+// build output to say why. Per file first, so the error names the file.
+const compile = (code, filename) => {
+  try {
+    new vm.Script(code, { filename });
+  } catch (err) {
+    console.error(`FAIL — ${filename} does not parse: ${err.message}`);
+    process.exit(1);
+  }
+};
+
+const SOURCES = JS_FILES.map(f => [`src/js/${f}`, readSrc(path.join("js", f))]);
+for (const [filename, code] of SOURCES) compile(code, filename);
+
+const JS = SOURCES.map(([, code]) => code).join("\n\n");
+compile(JS, "src/js/ (concatenated)");
 
 const SLOTS = {
   CSS_BASE: readSrc(path.join("styles", "base.css")),
