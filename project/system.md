@@ -33,7 +33,7 @@ Ceiling: 4500 characters.
   `JS_FILES` in `build.mjs`. Not ES modules: no `import`, no `export`.
 - Node 26.8.1, pinned in `netlify.toml` and `.github/workflows/validate.yml`.
 - `netlify.toml`: command `node scripts/build.mjs`, publish `dist`. Run by
-  `netlify-cli` in CI; Netlify's Git integration is not used.
+  `netlify-cli` in CI, not by Netlify's Git integration.
 - `/data/images/*` served `public, max-age=31536000, immutable`.
 
 ## Runtime dependencies
