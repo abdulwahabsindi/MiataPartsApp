@@ -17,7 +17,7 @@ Ceiling: 4500 characters.
 | URL | https://mx5ncksa.netlify.app |
 | Backend | Firebase (Auth, Firestore, Functions), not provisioned |
 | Deploy | GitHub Actions on push to `main`: `netlify-cli@27.10.0 deploy --build --prod` |
-| Live build | 354 KB, base64 images. Behind `main` |
+| Live build | 74 KB page, 28 images (228 KB). Tracks `main` |
 | CI | GitHub Actions `validate.yml`: `validate.mjs` then `build.mjs` on PR and push to main, then `deploy` on main |
 | Git remote | github.com/abdulwahabsindi/MiataPartsApp (private) |
 | Custom domain | None |
